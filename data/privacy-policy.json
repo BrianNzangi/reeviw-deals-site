@@ -1,0 +1,148 @@
+{
+  "effectiveDate": "March 18, 2025",
+  "companyName": "Reeviw",
+  "introduction": {
+    "overview": "Reeviw (\"Reeviw,\" \"we,\" \"us,\" or \"our\") values your privacy across the Reeviw website (reeviw.com), our mobile site, and our apps (collectively, the \"Properties\"). This Privacy Policy applies to our Properties, the services we provide via those Properties, and your interactions with us outside the Properties other than through our browser extensions (collectively, the \"Services\"). This Policy explains how Reeviw collects, uses, and discloses information about you. By visiting or using our Properties or Services you agree to the practices described in this Privacy Policy.",
+    "extensionDisclaimer": "This Privacy Policy does not apply to our browser extensions. Browser extensions follow a separate Extension Privacy Policy. If you use a Reeviw browser extension together with other Services, information collected through the extension may be combined with information collected through our other Services. We may use that combined information to provide and improve both the extension and our other Services.",
+    "audienceScope": "This Privacy Policy is primarily for individual users of our Services. If you interact with Reeviw in a business capacity, such as partnering with us to offer services or promotions, see the \"Business Visitors\" section below for how we collect, use, and disclose information about business contacts. Other sections of this Privacy Policy apply only to individual users."
+  },
+  "informationCollection": {
+    "title": "What Types of Personal Information Does Reeviw Collect from Me?",
+    "userProvidedInfo": "Reeviw collects the personal information you provide to us as a user. Examples include when you register, sign up for notifications, participate in surveys or promotions, contact us by email, or otherwise share your details. Personal information may include your name, email address, phone number, mailing and/or billing address, and other identifiers. You may use some Services without providing such information, though certain features may be unavailable. To update personal information you previously shared, you can log into your account or contact us at info@reeviw.com.",
+    "deviceInfo": "If you access our Services from a mobile or other device, we may collect a unique device identifier. We may also collect precise location data to provide more relevant offers, such as nearby deals.",
+    "automaticCollection": "Each time you use our Services, Reeviw automatically collects technical information, which may be combined with other data we hold about you. This includes browser type, referring URL, Internet Service Provider, operating system, and IP address. We may use cookies, web beacons, and similar technologies to collect this data, as described in the \"Cookies and Tracking\" section below. Analytics and reporting tools may capture records of your browsing and activity, such as click patterns, preferences, and timestamps.",
+    "communicationData": "If you receive emails or texts from us, we may analyze engagement data, including whether messages are opened and whether links or offers are clicked.",
+    "thirdPartyData": "We may also collect information from third parties. For example, if you log in via services like Google or Facebook, we will collect information those services share with us (e.g., name, email, gender, city, state) according to your privacy settings with them. When you click through links in our Services, merchants or their affiliates may share details with us about your activity, such as purchases. This information may be used to support loyalty programs or for other purposes described in this Policy. We may also obtain personal information about you from other third-party sources and combine it with data we collect directly."
+  },
+  "cookiesAndTracking": {
+    "title": "What About Cookies and Web Beacons?",
+    "cookiesDescription": "Reeviw (and our third-party service providers) use cookies—small data files placed on your device—and similar technologies to manage and analyze your interactions with our Services. These technologies can store information about you or your device and are used for purposes such as improving our Services, tracking return visits to our Properties or partner sites, collecting statistical information, saving login credentials, showing advertising or content based on your interests, and measuring engagement with emails, texts, and ads. We may also collect details such as your search criteria, results, visit dates and times, connection speed, and IP address. Cookies may store device identifiers, like a hashed email address, but we do not use cookies to store personal identifiers such as your name.",
+    "thirdPartyCookies": "Third parties whose products or services are accessible or advertised through our Services may also place cookies on our Properties. You should review their privacy policies to understand their practices.",
+    "cookieControls": "You may choose to disable cookies through your browser settings. Doing so will not stop all data collection but may limit certain functionality of our Services.",
+    "webBeacons": "Emails we send may include web beacons—small pieces of code that allow us to know when an email is opened or when a link in the email is clicked. To disable web beacons, you can turn images \"off\" in your email software. Refer to your email software's instructions for guidance."
+  },
+  "informationUse": {
+    "title": "How Does Reeviw Use My Information?",
+    "purposes": [
+      "Customizing and personalizing the advertising and content you see.",
+      "Personalizing and improving your experience on our Services.",
+      "Fulfilling your requests for Services.",
+      "Sending you information about topics we believe may interest you.",
+      "Alerting you to updates, developments, and new features on our Services.",
+      "Entering you into promotions or sweepstakes when you request and awarding prizes.",
+      "Operating, maintaining, and improving our Services.",
+      "Communicating with you, including responding to inquiries and providing service-related updates.",
+      "Conducting research, recordkeeping, and reporting.",
+      "Monitoring our Services for compliance with our Terms of Service and policies."
+    ]
+  },
+  "informationDisclosure": {
+    "title": "When Will Reeviw Disclose My Information to Third Parties?",
+    "disclosureCircumstances": [
+      "Information you disclose when using community or social networking features on our Services may be made public, including to other users. Reeviw is not responsible for information you disclose in public forums. We strongly recommend sharing personal details only with users you trust.",
+      "We may share your personal information with merchants to process purchases. Merchants may use or disclose that information (including for marketing) under their own privacy policies.",
+      "We may share your information with your consent or as disclosed at the time of collection.",
+      "We may share information with our agents, contractors, service providers (\"processors\"), and partners who provide services on our behalf, such as payment processing, customer support, hosting, or personalization.",
+      "We may share information in connection with a merger, sale, acquisition, assignment, transfer of assets, affiliates, or lines of business, including in bankruptcy."
+    ]
+
+  },
+  "onlineIdentifiers": {
+    "title": "Online Identifiers",
+    "description": "Where permitted by law, we may share information that identifies your browser or device over time (such as device or online identifiers, or data that has been hashed or obfuscated) and details about your activities on our Services and third-party properties. Third-party companies may use this information for their own purposes, including interest-based advertising across websites, apps, browsers, and devices."
+  },
+  "deidentifiedInformation": {
+    "title": "Deidentified and Aggregated Information",
+    "description": "We may use and share deidentified and aggregated data with third parties, advertisers, or business partners for our own business purposes or for third-party marketing. We maintain deidentified information in deidentified form and do not attempt to reidentify it except as necessary to confirm it remains deidentified."
+  },
+  "thirdPartyCollection": {
+    "title": "Do Third Parties Collect My Information?",
+    "analyticsServices": "We use analytics services from third parties, such as Google Analytics. These providers use cookies and similar technologies to collect data about your use of our Properties and other websites over time. This information is stored and used to evaluate usage, create reports, improve our Services, and support product development. Providers may share this data with third parties where required by law or where they process information on behalf of the provider. For details on Google's data collection practices and your choices, see: Google Privacy & Terms.",
+    "addressServices": "If you provide us with your address, we may use third-party services such as the Google Places API to autocomplete the address. Google collects the address details you enter and your IP address. For details, see Google's Privacy Policy.",
+    "thirdPartyFeatures": "You may also access third-party features—such as offers, ads, websites, mobile apps, or interactive tools like calculators or widgets—via our Services or communications from Reeviw. When you interact with these features, you provide information directly to third parties or instruct us to share information with them. This Privacy Policy does not govern third-party practices. We are not responsible for third-party privacy practices and encourage you to review their policies before engaging.",
+    "socialMediaPlugins": "Our Services may include social media plug-ins. If you use these tools to share activity from our Services or otherwise interact with them, those social media companies may collect and use your information in accordance with their own privacy policies and your account settings. Review the applicable social media privacy policies before using these plug-ins.",
+    "interestBasedAdvertising": "See below for more information about how third parties may collect and use data on our Properties for interest-based advertising, and the choices you may have regarding these practices."
+  },
+  "marketingChoices": {
+    "title": "Marketing Choices",
+    "overview": "You may choose to receive marketing messages from us. These include personalized promotions, product updates, and account-related messages. All marketing messages are optional, and you can still use our services without signing up for them.",
+    "textMessages": "If you agree to receive text messages, standard carrier rates may apply. Message frequency may vary. You can stop receiving these messages anytime by replying \"STOP\" or by contacting us directly. We will not share your mobile number or consent status with third parties for their marketing purposes.",
+    "emailMarketing": "We may also send marketing emails that we believe will interest you. If you do not wish to receive these, you can unsubscribe at any time by clicking the link provided in any email. Please note that we may still send important service-related emails regarding your account or activity with us."
+  },
+  "interestBasedAdvertising": {
+    "title": "Interest-Based Advertising Choices",
+    "description": "We work with third-party advertising partners who use cookies and similar technologies to show ads that are relevant to your interests. These partners may collect information about your visits to our website and other online properties over time and across devices.",
+    "dataCollection": "This type of advertising is called interest-based advertising. The data collected may include device identifiers or other information that makes it possible to recognize your browser or device.",
+    "optOutOptions": [
+      "Visit aboutads.info/choices or networkadvertising.org/choices to opt out on participating browsers.",
+      "Use the AppChoices app (available on iOS, Android, and Amazon devices) to manage preferences on mobile apps.",
+      "Adjust your mobile device settings to limit ad tracking where available."
+    ],
+    "optOutDisclaimer": "Please note: opting out does not remove ads entirely. You will still see ads, but they may be less relevant to your interests. If you clear cookies, switch browsers, or reset your device, you may need to renew your opt-out choices.",
+    "hashedIdentifiers": "We may also share limited, hashed identifiers (like email addresses) with advertising partners to support these efforts. You can opt out of certain uses directly with those partners, such as through LiveRamp's opt-out page"
+  },
+  "securityAndRetention": {
+    "title": "Security and Information Retention",
+    "securityMeasures": "We take security seriously and use administrative, technical, and physical safeguards to protect personal data.",
+    "retentionPolicy": "We retain personal information only as long as needed for business, legal, or compliance purposes. Once data is no longer required, it is securely deleted, aggregated, or de-identified in accordance with applicable laws.",
+    "dataStorage": "All data is stored securely in the United States"
+  },
+  "businessVisitors": {
+    "title": "Business Visitors",
+    "informationCollected": "If you engage with us in a business capacity (for example, as a partner or advertiser), we may collect personal and business-related information such as your name, contact details, company information, job role, and billing details.",
+    "technicalInformation": "We may also collect technical information automatically, including browser type, operating system, device identifiers, IP address, and activity logs on our site. This data may be collected using cookies, web beacons, and analytics tools.",
+    "informationUse": [
+      "Communicate with you and manage our business relationship.",
+      "Provide offers and services to our users.",
+      "Operate, maintain, and improve our services."
+    ],
+    "informationSharing": [
+      "Service providers working on our behalf (e.g., payment processors, customer support).",
+      "Other parties with your consent or as disclosed at the time of collection."
+    ],
+    "additionalSharing": [
+      "In connection with mergers, acquisitions, or transfers of assets.",
+      "To protect legal rights, prevent fraud, ensure safety, and comply with legal obligations."
+    ]
+  },
+  "internationalVisitors": {
+    "title": "International Visitors",
+    "primaryAudience": "Our services are primarily designed for users in the United States, but we recognize that international visitors may access them.",
+    "dataConsent": "By using our services, you consent to the collection, processing, and storage of your personal information in the United States. U.S. privacy laws will apply, which may differ from those in your home country.",
+    "userResponsibility": "If you access our services from outside the U.S., you do so at your own choice and are responsible for complying with your local laws."
+  },
+  "childrensPrivacy": {
+    "title": "Children's Privacy",
+    "ageRestriction": "Our Services are not intended for children, and we do not knowingly collect or maintain personal information from anyone under 16 years old. If we discover that we have collected such information, we will take steps to delete it.",
+    "parentalRights": "If you are a parent or legal guardian and believe that your child under 16 has provided us with personal information, you may contact us at privacy@reeviw.com to request its removal."
+  },
+  "statePrivacyRights": {
+    "title": "State Privacy Rights",
+    "applicableStates": "Residents of California, Colorado, Connecticut, Montana, Oregon, Texas, Utah, and Virginia have specific rights regarding their personal information.",
+    "rights": [
+      "Confirm whether we process your personal information.",
+      "Know the categories of personal information we collect and the sources.",
+      "Access the specific information we maintain about you.",
+      "Request deletion of your personal information.",
+      "Correct inaccuracies in your personal information.",
+      "Opt out of the sale or sharing of personal information, including for targeted advertising.",
+      "Not face discrimination for exercising your privacy rights."
+    ],
+    "disclosure": "We may disclose personal information to merchants, service providers, affiliate networks, and advertising/marketing partners for business purposes. We do not knowingly sell or share personal information of minors under 16.",
+    "exercisingRights": "To exercise your rights, please email privacy@reeviw.com with your request. Depending on your state, you may also have the right to appeal if you believe your request was not handled properly.",
+    "gpcSignals": "We honor Global Privacy Control (GPC) signals for opt-out requests when enabled in your browser."
+  },
+  "verificationAndAgents": {
+    "title": "Verification and Authorized Agents",
+    "description": "If you submit a privacy request, we may need to verify your identity by comparing it with information we already hold. You may also authorize someone to act on your behalf by contacting us at privacy@reeviw.com."
+  },
+  "policyChanges": {
+    "title": "Changes to This Privacy Policy",
+    "description": "We may update this Privacy Policy from time to time. If changes are made, we will post the updated version on this page with a revised effective date. We encourage you to review it regularly."
+  },
+  "contactInformation": {
+    "title": "Contact Us",
+    "description": "If you have questions or concerns about this Privacy Policy, please contact us at:",
+    "email": "privacy@reeviw.com"
+  }
+}

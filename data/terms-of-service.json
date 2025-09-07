@@ -1,0 +1,42 @@
+{
+  "terms_of_service": {
+    "effective_date": "March 18, 2025",
+    "introduction": "These Terms of Service (“Terms”) govern your use of the websites, applications, and other online services (collectively, the “Services”) provided by Reeviw (“Reeviw,” “we,” “our,” or “us”). The Services include, but are not limited to, the website located at www.reeviw.com and any other online property or tool that links to these Terms. By using our Services, you agree to these Terms, which also incorporate our Acceptable Use Policy. These Terms are a binding agreement between you and Reeviw. These Terms include provisions that limit our liability, require disputes to be resolved individually, and prohibit class action participation.",
+    "changes": "We may update these Terms at any time by posting the revised version on our Services. Any updates take effect immediately upon posting. Continued use of the Services after changes means you accept the updated Terms.",
+    "accounts": {
+      "requirement": "Certain features require a Reeviw account.",
+      "responsibility": "When creating an account, you must provide accurate, complete, and up-to-date information. You are solely responsible for all activity that occurs under your account.",
+      "security": "Keep your login credentials secure and do not share them with others."
+    },
+    "offers": {
+      "description": "Our Services may display deals, discounts, promotions, advertisements, and other third-party offers (“Offers”). Offers are provided by third-party sellers or service providers (“Sellers”). If you accept an Offer, your transaction is solely between you and the Seller.",
+      "reeviw_role": "Reeviw may have affiliate relationships with some Sellers and may earn compensation from promoted content, but we are not responsible for fulfilling any Offer.",
+      "liability": "Reeviw is not liable for the quality, accuracy, legality, or fulfillment of products or services in an Offer.",
+      "user_responsibility": "Before purchasing, you are responsible for reviewing the Seller’s terms, conditions, refund policies, and other applicable details.",
+      "contact": "For any issues or disputes regarding an Offer, you must contact the Seller directly."
+    },
+    "disclaimers": "The Services are provided “as is” and “as available.” We make no warranties or representations regarding accuracy, availability, reliability, or suitability of the Services or any Offers. To the fullest extent permitted by law, Reeviw disclaims all warranties, express or implied, including merchantability, fitness for a particular purpose, and non-infringement.",
+    "limitation_of_liability": {
+      "general": "To the maximum extent allowed under Kenyan law, Reeviw is not liable for indirect, incidental, consequential, or punitive damages arising out of your use of the Services or Offers.",
+      "cap": "Our total liability to you for any claim related to the Services will not exceed the greater of (a) KES 5,000 or (b) the amount you paid to Reeviw, if any, in the 12 months prior to the event giving rise to the claim."
+    },
+    "governing_law_and_dispute_resolution": {
+      "law": "These Terms and any dispute arising from or related to your use of the Services are governed by the laws of Kenya.",
+      "process": [
+        "Disputes shall first be attempted to be resolved amicably through informal negotiations.",
+        "If unresolved within 30 days, disputes must be referred to binding arbitration in Nairobi, Kenya, under the rules of the Chartered Institute of Arbitrators (Kenya Branch).",
+        "Arbitration will be conducted in English, and the decision of the arbitrator will be final and binding.",
+        "You waive any right to participate in class actions, consolidated proceedings, or jury trials."
+      ]
+    },
+    "termination": {
+      "reeviw_right": "We may suspend or terminate your access to the Services at any time, with or without notice, if you violate these Terms or use the Services in a way that could harm Reeviw, other users, or third parties.",
+      "user_right": "You may stop using the Services at any time. Termination does not relieve you of obligations incurred prior to termination (such as payment or dispute obligations)."
+    },
+    "miscellaneous": {
+      "entire_agreement": "These Terms constitute the entire agreement between you and Reeviw regarding the Services.",
+      "severability": "If any provision is found invalid or unenforceable, the remaining provisions remain in full force.",
+      "waiver": "Our failure to enforce a right or provision is not a waiver of that right or provision."
+    }
+  }
+}
