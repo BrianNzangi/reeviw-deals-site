@@ -4,6 +4,7 @@ import { FC } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { Search } from "lucide-react"
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { SignInButton, UserButton, useAuth } from "@clerk/nextjs"
 
 const MainNav: FC = () => {

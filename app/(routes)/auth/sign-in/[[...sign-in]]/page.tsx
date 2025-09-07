@@ -1,8 +1,9 @@
-// import { SignIn } from "@clerk/nextjs" // Dormant for now
+export const runtime = "nodejs"
 
 export const metadata = {
   title: "Sign In - Reeviw",
-  description: "Sign in to your Reeviw account to access exclusive deals and save your favorites.",
+  description:
+    "Sign in to your Reeviw account to access exclusive deals and save your favorites.",
 }
 
 export default function SignInPage() {
@@ -15,7 +16,7 @@ export default function SignInPage() {
             Sign in to access exclusive deals and save your favorites
           </p>
         </div>
-        
+
         <div className="flex justify-center">
           <div className="w-full max-w-md p-8 bg-white rounded-lg shadow-lg border border-gray-200">
             <div className="text-center text-gray-500">
@@ -24,7 +25,7 @@ export default function SignInPage() {
             </div>
           </div>
         </div>
-        
+
         <div className="mt-8 text-center">
           <div className="bg-blue-50 rounded-lg p-6">
             <h3 className="font-semibold mb-2">Why Sign In?</h3>

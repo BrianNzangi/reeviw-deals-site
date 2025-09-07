@@ -1,8 +1,8 @@
 import { SignUp } from "@clerk/nextjs"
 
 export const metadata = {
-  title: "Sign Up - Bargainly",
-  description: "Create your Bargainly account to access exclusive deals and personalized recommendations.",
+  title: "Sign Up - Reeviw",
+  description: "Create your Reeviw account to access exclusive deals and personalized recommendations.",
 }
 
 export default function SignUpPage() {
