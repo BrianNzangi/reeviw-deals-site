@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import { Space_Grotesk } from "next/font/google"
+import Script from "next/script"
 import "./globals.css"
 import TopNotice from "@/components/navbar/TopNotice"
 import MainNav from "@/components/navbar/MainNav"
@@ -28,6 +29,22 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-HS6ED8B6E0"
+          strategy="afterInteractive"
+          async
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-HS6ED8B6E0');
+          `}
+        </Script>
+      </head>
       <ClerkProvider
         signInUrl="/auth/sign-in"
         signUpUrl="/auth/sign-up"
