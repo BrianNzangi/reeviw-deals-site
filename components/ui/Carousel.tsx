@@ -14,13 +14,13 @@ export default function Carousel({ items, className = '' }: CarouselProps) {
 
   const scrollLeft = () => {
     if (scrollRef.current) {
-      scrollRef.current.scrollBy({ left: -320, behavior: 'smooth' })
+      scrollRef.current.scrollBy({ left: -scrollRef.current.clientWidth, behavior: 'smooth' })
     }
   }
 
   const scrollRight = () => {
     if (scrollRef.current) {
-      scrollRef.current.scrollBy({ left: 320, behavior: 'smooth' })
+      scrollRef.current.scrollBy({ left: scrollRef.current.clientWidth, behavior: 'smooth' })
     }
   }
 
@@ -54,11 +54,13 @@ export default function Carousel({ items, className = '' }: CarouselProps) {
       {/* Scrollable Container */}
       <div
         ref={scrollRef}
-        className="flex gap-4 overflow-x-auto scrollbar-hide pb-4"
-        style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+        className="flex overflow-hidden scroll-smooth snap-x snap-mandatory"
       >
         {items.map((item) => (
-          <div key={item.id} className="flex-none w-72">
+          <div
+            key={item.id}
+            className="w-1/2 sm:w-1/3 lg:w-1/5 flex-shrink-0 snap-start px-2"
+          >
             <ProductCard product={item} />
           </div>
         ))}

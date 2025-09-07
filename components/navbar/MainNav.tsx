@@ -4,11 +4,9 @@ import { FC } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { Search } from "lucide-react"
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { SignInButton, UserButton, useAuth } from "@clerk/nextjs"
+import { UserButton } from "@clerk/nextjs"
 
 const MainNav: FC = () => {
-
   return (
     <div className="w-full bg-[#1F2323] text-white">
       <div className="container px-4 md:px-6">
@@ -39,16 +37,15 @@ const MainNav: FC = () => {
 
           {/* Authentication */}
           <div className="flex items-center gap-4 text-sm">
-            <SignInButton mode="modal">
-              <button className="flex items-center gap-2 hover:underline text-white">
-                Sign In
-              </button>
-            </SignInButton>
-            <SignInButton mode="modal" forceRedirectUrl="/">
-              <button className="bg-white text-[#1F2323] px-4 py-2 rounded-full font-medium hover:bg-gray-100 transition-colors">
-                Sign Up
-              </button>
-            </SignInButton>
+            <Link href="/auth/sign-in" className="flex items-center gap-2 hover:underline text-white">
+              Sign In
+            </Link>
+            <Link
+              href="/auth/sign-up"
+              className="bg-white text-[#1F2323] px-4 py-2 rounded-full font-medium hover:bg-gray-100 transition-colors"
+            >
+              Sign Up
+            </Link>
             <UserButton afterSignOutUrl="/" />
           </div>
         </div>
@@ -70,16 +67,15 @@ const MainNav: FC = () => {
 
             {/* Authentication - Mobile */}
             <div className="flex items-center gap-3 text-xs">
-              <SignInButton mode="modal">
-                <button className="flex items-center gap-1 hover:underline">
-                  <span>Sign In</span>
-                </button>
-              </SignInButton>
-              <SignInButton mode="modal" forceRedirectUrl="/">
-                <button className="bg-white text-[#1F2323] px-3 py-1.5 rounded-full font-medium hover:bg-gray-100 transition-colors text-xs">
-                  Sign Up
-                </button>
-              </SignInButton>
+              <Link href="/auth/sign-in" className="flex items-center gap-1 hover:underline">
+                <span>Sign In</span>
+              </Link>
+              <Link
+                href="/auth/sign-up"
+                className="bg-white text-[#1F2323] px-3 py-1.5 rounded-full font-medium hover:bg-gray-100 transition-colors text-xs"
+              >
+                Sign Up
+              </Link>
               <UserButton afterSignOutUrl="/" />
             </div>
           </div>

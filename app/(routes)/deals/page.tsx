@@ -1,5 +1,5 @@
 import Carousel from "@/components/ui/Carousel"
-import ProductGrid from "@/components/products/ProductGrid"
+import ProductGrid2 from "@/components/products/ProductGrid2"
 import VerticalAd from "@/components/ads/VerticalAd"
 import { Product } from "@/types/product"
 import { createClient } from '@supabase/supabase-js'
@@ -136,14 +136,7 @@ export default async function DealsPage() {
   ]
 
   return (
-    <div className="container mx-auto px-4 py-8 overflow-x-hidden">
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold mb-4">Best Deals</h1>
-        <p className="text-gray-600">
-          Discover the hottest deals from your favorite retailers
-        </p>
-      </div>
-      
+    <div className="container mx-auto px-4 py-8 overflow-x-hidden">      
       <div className="flex gap-8">
         {/* Main content */}
         <div className="flex-1 min-w-0">
@@ -169,14 +162,16 @@ export default async function DealsPage() {
                 View All →
               </button>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {category.deals.slice(0, 8).map((deal) => (
                 <div key={deal.id} className="bg-white rounded-lg border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
-                  <div className="aspect-square relative bg-gray-100">
+                  <div className="aspect-square relative bg-white">
                     <Image
                       src={deal.imageUrl ?? ""}
                       alt={deal.title}
-                      className="w-full h-full object-cover"
+                      width={200}
+                      height={200}
+                      className="w-full h-full object-contain px-8 py-8"
                     />
                     {deal.discount && (
                       <div className="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 text-xs font-bold rounded">
@@ -214,7 +209,7 @@ export default async function DealsPage() {
           {/* All Deals Grid */}
           <div className="mt-16">
             <h2 className="text-2xl font-bold mb-8">All Deals</h2>
-            <ProductGrid initialProducts={allDeals} />
+            <ProductGrid2 initialProducts={allDeals} />
           </div>
         </div>
         

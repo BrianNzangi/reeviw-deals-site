@@ -1,3 +1,6 @@
+// app/(routes)/auth/sign-in/[[...sign-in]]/page.tsx
+import { SignIn } from "@clerk/nextjs"
+
 export const runtime = "nodejs"
 
 export const metadata = {
@@ -19,10 +22,7 @@ export default function SignInPage() {
 
         <div className="flex justify-center">
           <div className="w-full max-w-md p-8 bg-white rounded-lg shadow-lg border border-gray-200">
-            <div className="text-center text-gray-500">
-              <p className="mb-4">Authentication is currently disabled.</p>
-              <p className="text-sm">Clerk integration will be enabled later.</p>
-            </div>
+            <SignIn path="/auth/sign-in" routing="path" signUpUrl="/auth/sign-up" />
           </div>
         </div>
 

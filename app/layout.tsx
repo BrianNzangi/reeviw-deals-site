@@ -25,7 +25,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <ClerkProvider>
+      <ClerkProvider
+        signInUrl="/auth/sign-in"
+        signUpUrl="/auth/sign-up"
+        afterSignInUrl="/"
+        afterSignUpUrl="/"
+      >
         <body className={`${spaceGrotesk.variable} antialiased`}>
           <TopNotice />
           <MainNav />
