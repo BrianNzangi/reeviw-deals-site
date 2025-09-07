@@ -1,0 +1,46 @@
+{
+  "name": "reeviw",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint",
+    "fetch-products": "ts-node --esm scripts/fetchProducts.ts",
+    "setup-db": "ts-node --esm scripts/setupDatabase.ts",
+    "check-env": "node scripts/checkEnv.cjs",
+    "fetch": "node scripts/fetchProductsSimple.cjs",
+    "seed-db": "npm run fetch-products -- --categories electronics,fashion,home-garden --count 20 --featured",
+    "update-products": "npm run fetch-products -- --count 10"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@supabase/supabase-js": "^2.57.2",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16",
+    "dotenv": "^16.6.1",
+    "ioredis": "^5.7.0",
+    "lucide-react": "^0.542.0",
+    "next": "15.5.2",
+    "postcss": "^8.5.6",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-icons": "^5.5.0",
+    "redis": "^5.8.2"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4.1.12",
+    "@types/node": "^20.19.11",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.2",
+    "tailwindcss": "^4.1.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}

@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/* Brand Colors */
+:root {
+  --brand-dark: #1F2323;
+  --brand-accent: #92F7FA;
+  --brand-white: #FFFFFF;
+}
+
+/* Base Styles */
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: var(--brand-white);
+  color: var(--brand-dark);
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Custom Animations */
+@keyframes slide-in-from-left {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-in {
+  animation-fill-mode: both;
+}
+
+.slide-in-from-left-2 {
+  animation: slide-in-from-left 0.3s ease-out;
+}
+
+/* Scrollbar Hide */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
