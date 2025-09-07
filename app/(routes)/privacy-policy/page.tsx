@@ -46,7 +46,7 @@ export default function PrivacyPolicyPage() {
         // Filter out the title property and join the rest
         const contentValues = Object.entries(section)
           .filter(([k]) => k !== 'title')
-          .map(([_, v]) => {
+          .map(([, v]) => {
             if (typeof v === 'string') return v;
             if (Array.isArray(v)) return v.join('\n- ');
             return JSON.stringify(v);
