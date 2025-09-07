@@ -16,6 +16,9 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: "Reeviw - Find the Best Deals, Coupons, and Discounts Online",
   description: "Reeviw helps you discover the best deals, coupons, and discounts.",
+  icons: {
+    icon: "/favicon.ico", // Path relative to /public
+  },
 }
 
 export default function RootLayout({

@@ -20,8 +20,8 @@ export default function SignInPage() {
           </p>
         </div>
 
-        <div className="flex justify-center">
-          <div className="w-full max-w-md p-8 bg-white rounded-lg shadow-lg border border-gray-200">
+        <div className="flex items-center justify-center">
+          <div className="w-full max-w-md p-8 bg-white rounded-sm shadow border border-gray-100">
             <SignIn path="/auth/sign-in" routing="path" signUpUrl="/auth/sign-up" />
           </div>
         </div>
