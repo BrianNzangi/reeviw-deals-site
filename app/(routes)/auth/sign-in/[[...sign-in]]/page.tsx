@@ -1,8 +1,8 @@
 // import { SignIn } from "@clerk/nextjs" // Dormant for now
 
 export const metadata = {
-  title: "Sign In - Bargainly",
-  description: "Sign in to your Bargainly account to access exclusive deals and save your favorites.",
+  title: "Sign In - Reeviw",
+  description: "Sign in to your Reeviw account to access exclusive deals and save your favorites.",
 }
 
 export default function SignInPage() {

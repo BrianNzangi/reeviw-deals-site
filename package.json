@@ -16,6 +16,7 @@
     "update-products": "npm run fetch-products -- --count 10"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.31.9",
     "@heroicons/react": "^2.2.0",
     "@supabase/supabase-js": "^2.57.2",
     "@tailwindcss/aspect-ratio": "^0.4.2",

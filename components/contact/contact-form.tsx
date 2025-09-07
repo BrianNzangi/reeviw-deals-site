@@ -5,14 +5,14 @@ import React, { useState } from 'react';
 export default function ContactForm() {
   const [showSuccess, setShowSuccess] = useState(false);
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const form = e.target;
     
     try {
-      const response = await fetch(form.action, {
-        method: form.method,
-        body: new FormData(form),
+      const response = await fetch((e.target as HTMLFormElement).action, {
+        method: (form as HTMLFormElement).method,
+        body: new FormData(form as HTMLFormElement),
         headers: {
           'Accept': 'application/json'
         }
@@ -20,7 +20,7 @@ export default function ContactForm() {
       
       if (response.ok) {
         setShowSuccess(true);
-        form.reset();
+        (form as HTMLFormElement).reset();
         // Hide success message after 5 seconds
         setTimeout(() => setShowSuccess(false), 5000);
       } else {

@@ -1,4 +1,4 @@
-// import { SignUp } from "@clerk/nextjs" // Dormant for now
+import { SignUp } from "@clerk/nextjs"
 
 export const metadata = {
   title: "Sign Up - Bargainly",
@@ -10,7 +10,7 @@ export default function SignUpPage() {
     <div className="container mx-auto px-4 py-16">
       <div className="max-w-md mx-auto">
         <div className="text-center mb-8">
-          <h1 className="text-2xl font-bold mb-2">Join Bargainly</h1>
+          <h1 className="text-2xl font-bold mb-2">Join Reeviw Deals</h1>
           <p className="text-gray-600">
             Create your account and start saving on the best deals
           </p>
@@ -18,10 +18,7 @@ export default function SignUpPage() {
         
         <div className="flex justify-center">
           <div className="w-full max-w-md p-8 bg-white rounded-lg shadow-lg border border-gray-200">
-            <div className="text-center text-gray-500">
-              <p className="mb-4">Registration is currently disabled.</p>
-              <p className="text-sm">Clerk integration will be enabled later.</p>
-            </div>
+            <SignUp />
           </div>
         </div>
         

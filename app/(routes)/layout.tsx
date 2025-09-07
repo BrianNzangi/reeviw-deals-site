@@ -5,6 +5,7 @@ import TopNotice from "@/components/navbar/TopNotice"
 import MainNav from "@/components/navbar/MainNav"
 import SecondaryNav from "@/components/navbar/SecondaryNav"
 import Footer from "@/components/ui/Footer"
+import { ClerkProvider } from "@clerk/nextjs"
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -24,13 +25,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${spaceGrotesk.variable} antialiased`}>
-        <TopNotice />
-        <MainNav />
-        <SecondaryNav />
-        <main>{children}</main>
-        <Footer />
-      </body>
+      <ClerkProvider>
+        <body className={`${spaceGrotesk.variable} antialiased`}>
+          <TopNotice />
+          <MainNav />
+          <SecondaryNav />
+          <main>{children}</main>
+          <Footer />
+        </body>
+      </ClerkProvider>
     </html>
   )
 }

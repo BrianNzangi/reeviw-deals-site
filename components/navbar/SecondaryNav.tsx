@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { TrendingUp, Menu } from "lucide-react"
+import { Menu } from "lucide-react"
 import { useState } from "react"
 import { CATEGORIES } from "@/lib/constants"
 
@@ -9,7 +9,6 @@ const SecondaryNav = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
   
   const navLinks = [
-    { label: "Trending", href: "/trending", icon: <TrendingUp className="w-4 h-4" /> },
     { label: "Tool Deals", href: "/categories/automotive" }, // Wire to automotive category
     { label: "Tech Deals", href: "/categories/electronics" }, // Wire to electronics category
     { label: "Apparel", href: "/categories/fashion" }, // Wire to fashion category
@@ -69,7 +68,6 @@ const SecondaryNav = () => {
                 href={link.href}
                 className="flex items-center gap-2 text-sm font-medium text-gray-700 hover:text-blue-600 whitespace-nowrap transition-colors duration-200"
               >
-                {link.icon && link.icon}
                 {link.label}
               </Link>
             ))}
@@ -122,7 +120,6 @@ const SecondaryNav = () => {
                 href={link.href}
                 className="flex items-center gap-1.5 text-sm font-medium text-gray-700 hover:text-blue-600 whitespace-nowrap py-2 transition-colors duration-200"
               >
-                {link.icon && link.icon}
                 {link.label}
               </Link>
             ))}

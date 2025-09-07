@@ -3,7 +3,8 @@
 import { FC } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { Search, User } from "lucide-react"
+import { Search } from "lucide-react"
+import { SignInButton, UserButton, useAuth } from "@clerk/nextjs"
 
 const MainNav: FC = () => {
 
@@ -35,11 +36,20 @@ const MainNav: FC = () => {
             </div>
           </div>
 
-          {/* Sign In */}
-          <button className="flex items-center gap-2 text-sm hover:underline">
-            <User className="h-5 w-5" />
-            Sign In
-          </button>
+          {/* Authentication */}
+          <div className="flex items-center gap-4 text-sm">
+            <SignInButton mode="modal">
+              <button className="flex items-center gap-2 hover:underline text-white">
+                Sign In
+              </button>
+            </SignInButton>
+            <SignInButton mode="modal" forceRedirectUrl="/">
+              <button className="bg-white text-[#1F2323] px-4 py-2 rounded-full font-medium hover:bg-gray-100 transition-colors">
+                Sign Up
+              </button>
+            </SignInButton>
+            <UserButton afterSignOutUrl="/" />
+          </div>
         </div>
 
         {/* Mobile Layout */}
@@ -57,11 +67,20 @@ const MainNav: FC = () => {
               />
             </Link>
 
-            {/* Sign In - Mobile */}
-            <button className="flex items-center gap-1 text-xs hover:underline">
-              <User className="h-4 w-4" />
-              <span>Sign In</span>
-            </button>
+            {/* Authentication - Mobile */}
+            <div className="flex items-center gap-3 text-xs">
+              <SignInButton mode="modal">
+                <button className="flex items-center gap-1 hover:underline">
+                  <span>Sign In</span>
+                </button>
+              </SignInButton>
+              <SignInButton mode="modal" forceRedirectUrl="/">
+                <button className="bg-white text-[#1F2323] px-3 py-1.5 rounded-full font-medium hover:bg-gray-100 transition-colors text-xs">
+                  Sign Up
+                </button>
+              </SignInButton>
+              <UserButton afterSignOutUrl="/" />
+            </div>
           </div>
 
           {/* Search Bar - Mobile (Below) */}

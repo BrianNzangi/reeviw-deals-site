@@ -1,5 +1,5 @@
 {
-  "effectiveDate": "March 18, 2025",
+  "effectiveDate": "October 18, 2024",
   "companyName": "Reeviw",
   "introduction": {
     "overview": "Reeviw (\"Reeviw,\" \"we,\" \"us,\" or \"our\") values your privacy across the Reeviw website (reeviw.com), our mobile site, and our apps (collectively, the \"Properties\"). This Privacy Policy applies to our Properties, the services we provide via those Properties, and your interactions with us outside the Properties other than through our browser extensions (collectively, the \"Services\"). This Policy explains how Reeviw collects, uses, and discloses information about you. By visiting or using our Properties or Services you agree to the practices described in this Privacy Policy.",
@@ -81,7 +81,7 @@
     "optOutDisclaimer": "Please note: opting out does not remove ads entirely. You will still see ads, but they may be less relevant to your interests. If you clear cookies, switch browsers, or reset your device, you may need to renew your opt-out choices.",
     "hashedIdentifiers": "We may also share limited, hashed identifiers (like email addresses) with advertising partners to support these efforts. You can opt out of certain uses directly with those partners, such as through LiveRamp's opt-out page"
   },
-  "securityAndRetention": {
+  "securityAndRetentionInfo": {
     "title": "Security and Information Retention",
     "securityMeasures": "We take security seriously and use administrative, technical, and physical safeguards to protect personal data.",
     "retentionPolicy": "We retain personal information only as long as needed for business, legal, or compliance purposes. Once data is no longer required, it is securely deleted, aggregated, or de-identified in accordance with applicable laws.",
@@ -136,6 +136,10 @@
     "title": "Verification and Authorized Agents",
     "description": "If you submit a privacy request, we may need to verify your identity by comparing it with information we already hold. You may also authorize someone to act on your behalf by contacting us at privacy@reeviw.com."
   },
+  "securityAndRetention": {
+    "title": "Security and Retention",
+    "description": "We use administrative, technical, and physical safeguards to protect your personal information. Data is stored securely in the United States. We retain information only as long as necessary for business purposes and legal obligations, after which it is deleted, aggregated, or deidentified."
+  },
   "policyChanges": {
     "title": "Changes to This Privacy Policy",
     "description": "We may update this Privacy Policy from time to time. If changes are made, we will post the updated version on this page with a revised effective date. We encourage you to review it regularly."
@@ -144,5 +148,6 @@
     "title": "Contact Us",
     "description": "If you have questions or concerns about this Privacy Policy, please contact us at:",
     "email": "privacy@reeviw.com"
-  }
+  },
+  "lastUpdated": "2024-03-19"
 }
