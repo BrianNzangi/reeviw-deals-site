@@ -34,7 +34,7 @@ const ProductGrid: FC<ProductGridProps> = ({
           grid-cols-1
           md:grid-cols-3
           lg:grid-cols-4
-          xl:grid-cols-5
+          xl:grid-cols-6
           gap-4
         "
       >

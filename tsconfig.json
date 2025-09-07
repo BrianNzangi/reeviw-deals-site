@@ -23,7 +23,7 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "scripts/**/*.ts", ".next/types/**/*.ts", "app/(routes)/auth/sign-in/[[...sign-in]]/page.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "scripts/**/*.ts", ".next/types/**/*.ts", "app/(routes)/auth/sign-in/[[...sign-in]]/page.tsx", "app/(routes)/auth/sign-in/[[...sign-in]]/page.js"],
   "exclude": ["node_modules"],
   "ts-node": {
     "esm": true
