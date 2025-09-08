@@ -16,12 +16,12 @@ export async function generateMetadata({ params }: ProductPageProps) {
   
   if (!product) {
     return {
-      title: "Product Not Found - Bargainly"
+      title: "Product Not Found - Reeviw"
     }
   }
 
   return {
-    title: `${product.title} - Bargainly`,
+    title: `${product.title} - Reeviw`,
     description: product.description || `Find the best deal on ${product.title}`,
     openGraph: {
       images: [product.imageUrl],

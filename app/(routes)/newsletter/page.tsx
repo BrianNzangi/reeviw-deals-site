@@ -1,8 +1,8 @@
 import NewsletterForm from "@/components/ui/NewsletterForm"
 
 export const metadata = {
-  title: "Newsletter - Bargainly",
-  description: "Subscribe to Bargainly's newsletter and never miss a great deal again.",
+  title: "Newsletter - Reeviw",
+  description: "Subscribe to Reeviw's newsletter and never miss a great deal again.",
 }
 
 export default function NewsletterPage() {

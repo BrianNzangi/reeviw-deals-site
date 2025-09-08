@@ -5,7 +5,7 @@ import type { Product } from "@/types/product"
 import { Suspense } from "react"
 
 export const metadata = {
-  title: "Curated Listings - Bargainly",
+  title: "Curated Listings - Reeviw",
   description: "Hand-picked deals and products curated by our team.",
 }
 

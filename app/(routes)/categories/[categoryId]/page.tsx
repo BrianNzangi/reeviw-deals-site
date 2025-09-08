@@ -82,12 +82,12 @@ export async function generateMetadata({ params }: CategoryPageProps) {
   
   if (!category) {
     return {
-      title: "Category Not Found - Bargainly"
+      title: "Category Not Found - Reeviw"
     }
   }
 
   return {
-    title: `${category.name} Deals - Bargainly`,
+    title: `${category.name} Deals - Reeviw`,
     description: `Find the best ${category.name.toLowerCase()} deals, coupons, and discounts on Bargainly.`,
   }
 }

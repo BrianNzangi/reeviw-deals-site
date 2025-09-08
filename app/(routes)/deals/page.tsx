@@ -106,7 +106,7 @@ function transformProduct(product: RawProduct): Product {
 }
 
 export const metadata = {
-  title: "Best Deals - Bargainly",
+  title: "Best Deals - Reeviw",
   description: "Discover the hottest deals from Amazon Prime, Walmart, Target and more.",
 }
 

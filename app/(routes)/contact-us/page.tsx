@@ -2,7 +2,7 @@ import React from 'react';
 import ContactForm from '@/components/contact/contact-form';
 
 export const metadata = {
-  title: 'Contact Us | Bargainly',
+  title: 'Contact Us | Reeviw',
   description: 'Get in touch with our support team for any questions or concerns.',
 };
 

@@ -18,7 +18,7 @@ const supabase = createClient(
 
 async function getInitialProducts(): Promise<Product[]> {
   try {
-    console.log('🔍 Fetching initial products...')
+    console.log('Fetching initial products...')
     
     // Fetch directly from Supabase - get more products for initial load
     const { data: products, error } = await supabase

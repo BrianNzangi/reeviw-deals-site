@@ -1,8 +1,8 @@
 import React from 'react';
 
 export const metadata = {
-  title: 'Help Center | Bargainly',
-  description: 'Find answers to frequently asked questions about Bargainly.',
+  title: 'Help Center | Reeviw',
+  description: 'Find answers to frequently asked questions about Reeviw.',
 };
 
 export default function HelpCenterPage() {
