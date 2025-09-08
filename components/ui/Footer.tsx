@@ -19,7 +19,7 @@ export default function Footer() {
           </div>
 
           {/* Links & Socials - Right */}
-          <div className="mmd:w-2/3 flex justify-end gap-24">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:w-2/3 lg:flex lg:justify-end lg:gap-24">
             {/* Quick Links */}
             <div>
               <h4 className="font-semibold mb-4">Quick Links</h4>
@@ -45,10 +45,10 @@ export default function Footer() {
             <div>
               <h4 className="font-semibold mb-4">Follow Us</h4>
               <ul className="space-y-2 text-gray-400">
-                <li><Link href="#" className="hover:text-white">Facebook</Link></li>
-                <li><Link href="#" className="hover:text-white">Twitter</Link></li>
-                <li><Link href="#" className="hover:text-white">Pinterest</Link></li>
-                <li><Link href="#" className="hover:text-white">TikTok</Link></li>
+                <li><Link href="https://facebook.com/reeviwdeals" className="hover:text-white">Facebook</Link></li>
+                <li><Link href="https://x.com/reeviwdeals" className="hover:text-white">Twitter</Link></li>
+                <li><Link href="https://pinterest.com/reeviwdeals" className="hover:text-white">Pinterest</Link></li>
+                <li><Link href="https://tiktok.com/@reeviw.com" className="hover:text-white">TikTok</Link></li>
               </ul>
             </div>
           </div>
