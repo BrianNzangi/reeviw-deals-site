@@ -15,7 +15,7 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: "Reeviw - Find the Best Deals, Coupons, and Discounts Online",
+  title: "Reeviw: Find the Best Deals, Coupons, and Discounts Online",
   description: "Your search for great deals ends here. Reeviw brings you the best bargains, discounts, promo codes, and price comparisons from top online stores, all in one place.",
   icons: {
     icon: "/favicon.ico", // Path relative to /public
@@ -46,7 +46,8 @@ export default function RootLayout({
         </Script>
         {/*Ad sense snippet*/}
         <script
-          async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7762839935165975"
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7762839935165975"
           crossOrigin="anonymous"
         />
         {/*Pinterest Verification*/}
