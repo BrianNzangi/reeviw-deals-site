@@ -18,8 +18,8 @@ export const metadata: Metadata = {
   title: "Reeviw: Find the Best Deals, Coupons, and Discounts Online",
   description: "Your search for great deals ends here. Reeviw brings you the best bargains, discounts, promo codes, and price comparisons from top online stores, all in one place.",
   icons: {
-    icon: "/favicon.ico", // Path relative to /public
-    shortcut: "/favicon.ico", // Path relative to /public
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
   },
 }
 
@@ -31,6 +31,23 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* JSON-LD snippet */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "Reeviw",
+              "url": "https://reeviw.com",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://reeviw.com/search?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
+            }),
+          }}
+        />
         {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-HS6ED8B6E0"
