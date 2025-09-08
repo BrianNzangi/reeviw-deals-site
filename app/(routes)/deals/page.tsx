@@ -122,7 +122,7 @@ export default async function DealsPage() {
       deals: allDeals.filter(deal => deal.store?.toLowerCase().includes('amazon'))
     },
     {
-      title: "Brand Name Products",
+      title: "Brand Deals",
       description: "Quality products from top brands",
       source: "brands", 
       deals: allDeals.filter(deal => deal.brand && !['Amazon', 'Generic'].includes(deal.brand))

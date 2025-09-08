@@ -19,6 +19,7 @@ export const metadata: Metadata = {
   description: "Your search for great deals ends here. Reeviw brings you the best bargains, discounts, promo codes, and price comparisons from top online stores, all in one place.",
   icons: {
     icon: "/favicon.ico", // Path relative to /public
+    shortcut: "/favicon.ico", // Path relative to /public
   },
 }
 
