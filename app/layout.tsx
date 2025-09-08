@@ -21,6 +21,27 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
   },
+  openGraph: {
+    title: "Reeviw: Find the Best Deals Online",
+    description: "Discover the best bargains, discounts, and promo codes from top online stores with Reeviw.",
+    url: "https://reeviw.com",
+    siteName: "Reeviw",
+    type: "website",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Reeviw: Find the Best Deals Online",
+    description: "Discover the best bargains, discounts, and promo codes from top online stores with Reeviw.",
+    images: ["/og-image.jpg"],
+    site: "@reeviwdeals",
+  },
 }
 
 export default function RootLayout({
@@ -62,13 +83,13 @@ export default function RootLayout({
             gtag('config', 'G-HS6ED8B6E0');
           `}
         </Script>
-        {/*Ad sense snippet*/}
+        {/* Adsense */}
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7762839935165975"
           crossOrigin="anonymous"
         />
-        {/*Pinterest Verification*/}
+        {/* Pinterest Verification */}
         <meta name="p:domain_verify" content="7a70bcd06dbf1d00b41791459e382c76"/>
       </head>
       <ClerkProvider
