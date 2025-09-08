@@ -15,7 +15,7 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: "Reeviw: Find the Best Deals, Coupons, and Discounts Online",
+  title: "Reeviw: The Best Deals, Coupons, and Discounts Online",
   description: "Your search for great deals ends here. Reeviw brings you the best bargains, discounts, promo codes, and price comparisons from top online stores, all in one place.",
   icons: {
     icon: "/favicon.ico",
