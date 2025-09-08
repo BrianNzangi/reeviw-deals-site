@@ -44,6 +44,13 @@ export default function RootLayout({
             gtag('config', 'G-HS6ED8B6E0');
           `}
         </Script>
+        {/*Ad sense snippet*/}
+        <script
+          async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7762839935165975"
+          crossOrigin="anonymous"
+        />
+        {/*Pinterest Verification*/}
+        <meta name="p:domain_verify" content="7a70bcd06dbf1d00b41791459e382c76"/>
       </head>
       <ClerkProvider
         signInUrl="/auth/sign-in"
